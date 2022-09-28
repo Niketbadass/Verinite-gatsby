@@ -5,7 +5,7 @@ module.exports = {
     title: 'Gatsby + WordPress Starter',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    // 'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-postcss`,
