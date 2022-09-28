@@ -1,0 +1,78 @@
+/*.case_study_box{
+    border-radius: 20px;
+    padding: 50px 30px;
+    background-color: #EAEFEC;
+    height: 275px;
+    transition: 0.3s;
+}
+.case_study_box:hover{
+    background-color: #ffffff;
+    box-shadow: 0 16px 54px rgba(20, 34, 113, 0.16);
+    padding: 30px 30px;
+}
+.box2{
+    background-color: #F1F6E9;
+}
+.box3{
+    background-color: #F2F1FF;
+}
+.box4{
+    background-color: #FDECDC;
+}
+.box5{
+    background-color: #E8F2FE;
+}
+.box6{
+    background-color: #F3F6F8;
+}
+.case_study_box .icon{
+    height: 46px;
+    width: 46px;
+    margin-bottom: 30px;
+}
+.case_study_box h6{
+    color: #030303;
+    margin-bottom: 10px;
+}
+.case_study_box p{
+    max-width: 288px;
+    line-height: 19px;
+}
+.case_study_box a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--theme-color);
+    letter-spacing: 0.9px;
+    display: inline-block;
+    margin-top: 20px;
+    position: absolute;
+    opacity: 0;
+}
+.case_study_box:hover a{
+    position: relative;
+    opacity: 1;
+}*/
+.stud:nth-child(2) .case_study_box {
+  background-color: #f1f6e9;
+}
+.stud:nth-child(2) .case_study_box:hover,
+.stud:nth-child(3) .case_study_box:hover,
+.stud:nth-child(4) .case_study_box:hover,
+.stud:nth-child(5) .case_study_box:hover,
+.stud:nth-child(6) .case_study_box:hover {
+  background-color: #fff;
+}
+.stud:nth-child(3) .case_study_box {
+  background-color: #f2f1ff;
+}
+.stud:nth-child(4) .case_study_box {
+  background-color: #fdecdc;
+}
+.stud:nth-child(5) .case_study_box {
+  background-color: #e8f2fe;
+}
+.stud:nth-child(6) .case_study_box {
+  background-color: #f3f6f8;
+}

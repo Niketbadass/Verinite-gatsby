@@ -1,0 +1,133 @@
+.testimonail_area {
+  overflow: hidden;
+}
+.title {
+  font-size: 40px;
+  line-height: 51px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color: #030303;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-slide img {
+  display: unset;
+}
+.testi_box {
+  opacity: 0.5;
+  .client_img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+  }
+  .name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #030303;
+    line-height: 20px;
+    margin-bottom: 2px;
+  }
+  .small_text {
+    letter-spacing: 0.6px;
+    color: #4d6e81;
+    display: block;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .review {
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
+.testimonial_content p{
+  margin-top: 10px!important;
+}
+.pb_50 {
+  padding-bottom: 50px;
+}
+.pt_30 {
+  padding-top: 30px;
+}
+.testimonail_area {
+  .testibox-wrapper {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  // .testi_box:hover,
+  .slick-active .testi_box {
+    opacity: 1;
+    padding-top: 25px;
+    .review {
+      padding:0px 30px 30px;
+      color: #ffffff;
+      background-color: #142270;
+      box-shadow: 0 10px 20px #1422710d;
+      z-index: 1;
+      opacity: 1;
+      position: relative;
+      border-radius: 10px;
+      text-align: center;
+      h5{
+        color: #ffffff;
+      }
+      p{
+        color: #ffffff;
+      }
+      .client_img{
+        position: relative;
+        bottom: 25px;
+
+      }
+      // img{
+      //   // position: relative;
+
+      // }
+    }
+    .review::before {
+      position: absolute;
+      content: '';
+      background-color: inherit;
+      height: 25px;
+      width: 25px;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+      z-index: -1;
+    }
+  }
+  .slick-dots {
+    bottom: -40px;
+  }
+  .client-img.gatsby-image-wrapper {
+    margin: 4px auto;
+    // picture img{
+    //     position: unset !important;
+    // }
+  }
+}
+.testi_content_box{
+    padding:   20px 46px 60px;
+    @media(max-width:575.98px){
+      padding: 0px;
+    }
+}
+.tsti_content{
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #1422713b;
+  padding: 40px 46px 60px;
+  @media (max-width: 575.98px) {
+    height: auto;
+    padding: 40px 25px 40px;
+  }
+
+}
+// .testi_content_box:before{
+//   box-shadow: 0 10px 40px #1a5f982d;
+// }

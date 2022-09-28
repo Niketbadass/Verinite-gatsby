@@ -1,0 +1,51 @@
+.button {
+  min-width: 267px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  background-color: #0a82ff;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  line-height: 5px;
+  padding: 28px 25px !important;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  &:link {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+}
+.dark {
+  background-color: #030303;
+  color: #fff;
+  &:hover {
+    background-color: #1d3aa7;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.light {
+  background-color: #fff;
+  color: #1d3aa7;
+  &:hover {
+    background-color: #1d3aa7;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.job.light:hover {
+  background-color: #030303;
+  color: #fff;
+}
+.industry .light:hover {
+  background-color: #030303;
+  color: #fff;
+}

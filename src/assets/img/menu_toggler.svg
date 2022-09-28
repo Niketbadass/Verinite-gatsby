@@ -1,0 +1,7 @@
+<svg id="menu_toggler" xmlns="http://www.w3.org/2000/svg" width="25.186" height="16.562" viewBox="0 0 25.186 16.562">
+  <g id="Group_3" data-name="Group 3">
+    <path id="Path" d="M.781,1.562H24.217a.781.781,0,1,0,0-1.562H.781a.781.781,0,0,0,0,1.562Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Path-2" data-name="Path" d="M24.217,0H.781a.781.781,0,0,0,0,1.562H24.217a.781.781,0,1,0,0-1.562Z" transform="translate(0 8)" fill="#fff"/>
+    <path id="Path-3" data-name="Path" d="M16.4,0H.781a.781.781,0,0,0,0,1.562H16.4A.781.781,0,0,0,16.4,0Z" transform="translate(8 15)" fill="#fff"/>
+  </g>
+</svg>

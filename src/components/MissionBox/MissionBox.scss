@@ -1,0 +1,52 @@
+.mission_background_image {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.mission_area {
+  background-color: var(--grey);
+  a {
+    text-decoration: none;
+  }
+}
+
+.mission_box {
+  box-shadow: 0 16px 84px rgba(20, 34, 113, 0.23);
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 70px 40px;
+  h2 {
+    font-weight: 500;
+    color: #030303;
+    font-size: 34px;
+    line-height: 51px;
+    letter-spacing: 0.3px;
+    max-width: 345px;
+  }
+  h6 {
+    font-weight: 400;
+    line-height: 31px;
+  }
+  .play {
+    display: block;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.8px;
+    color: #40b5f0;
+    display: block;
+    margin-top: 47px;
+    img {
+      margin-left: 15px;
+    }
+  }
+}

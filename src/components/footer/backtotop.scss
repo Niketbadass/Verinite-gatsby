@@ -1,0 +1,62 @@
+.scroll-to-top {
+  font-size: 1.3rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 12px;
+  border-radius: 50%;
+  background: var(--theme-color);
+  z-index: 1000;
+  border-radius: 100%;
+  text-align: center;
+  svg {
+    color: #fff;
+    animation: scrollTop 0.5s alternate ease infinite;
+    width: 1.3rem;
+  }
+}
+.scroll-to-top:hover {
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  .scroll-to-top {
+    margin: 8px 8px 14px 10px;
+  }
+  .scroll-to-top svg {
+    margin: 0.375rem;
+  }
+}
+@media (max-width: 768px) {
+  .scroll-to-top {
+    margin: 6px 6px 6px 8px;
+  }
+  .scroll-to-top svg {
+    margin: 0.375rem;
+  }
+}
+@media (max-width: 500px) {
+  .scroll-to-top {
+    font-size: 1rem;
+    width: 2.6rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 12px;
+    border-radius: 50%;
+    background: var(--theme-color);
+    z-index: 1000;
+    border-radius: 100%;
+    text-align: center;
+  }
+  .scroll-to-top {
+    margin: 0 -6px;
+  }
+  .scroll-to-top svg {
+    margin: 0.375rem;
+  }
+}

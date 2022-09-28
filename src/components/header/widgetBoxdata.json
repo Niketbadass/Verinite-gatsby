@@ -1,0 +1,206 @@
+{
+  "menu_items": {
+    "items": [
+      {
+        "path": "/home",
+        "label": "Services",
+        "id": "Services_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Success stories",
+        "id": "Success_storiess_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Work culture",
+        "id": "Work_culture_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "About us",
+        "id": "About_us_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Contact us",
+        "id": "Contact_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Careers",
+        "id": "Careers_widget_item"
+      }
+    ]
+  },
+  "solutions": {
+    "title": "Solutions",
+    "items": [
+      {
+        "path": "/home",
+        "label": "Cards",
+        "id": "cards_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Payments",
+        "id": "payments_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Lending",
+        "id": "lending_widget_item"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries",
+    "items": [
+      {
+        "path": "/home",
+        "label": "Banks",
+        "id": "banks_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Fintechs",
+        "id": "fintechs_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "NBFC",
+        "id": "NBFC_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Third Party Payment",
+        "id": "thirdpartypay_widget_item"
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "items": [
+      {
+        "path": "/home",
+        "label": "Blogs",
+        "id": "Blogs_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Media",
+        "id": "Media_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Success Stories",
+        "id": "Success_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Brochures",
+        "id": "payments_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Podcasts",
+        "id": "Podcasts_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Case studies",
+        "id": "Case_widget_item"
+      }
+    ]
+  },
+  "company": {
+    "title": "Company",
+    "items": [
+      {
+        "path": "/home",
+        "label": "About Us",
+        "id": "company_about_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Careers",
+        "id": "Careers_about_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Culture",
+        "id": "Culture_about_widget_item"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "items": [
+      {
+        "path": "/home",
+        "label": "IT Services",
+        "id": "Services_IT_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Independent Testing",
+        "id": "Independent_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Consulting Services",
+        "id": "Consulting_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Mobility Services",
+        "id": "Mobility_service_service_widget"
+      },
+      {
+        "path": "/home",
+        "label": "Information Security",
+        "id": "Information_widget"
+      },
+      {
+        "path": "/home",
+        "label": "Intelligent Automation",
+        "id": "Intelligent_service_widget"
+      },
+      {
+        "path": "/home",
+        "label": "IT Services",
+        "id": "it_widget_item"
+      },
+      {
+        "path": "/home",
+        "label": "Independent Testing",
+        "id": "indepent_sec_widget"
+      },
+      {
+        "path": "/home",
+        "label": "Consulting Services",
+        "id": "Consulting_sec_widget"
+      },
+      {
+        "path": "/home",
+        "label": "Mobility Services",
+        "id": "Mobility_sec_widget"
+      },
+      {
+        "path": "/home",
+        "label": "Information Security",
+        "id": "Information_sec_widget"
+      },
+      {
+        "path": "/home",
+        "label": "Intelligent Automation",
+        "id": "Intelligent_automate_widget"
+      },
+      {
+        "path": "/home",
+        "label": "More",
+        "id": "more_widget"
+      }
+    ]
+  }
+}

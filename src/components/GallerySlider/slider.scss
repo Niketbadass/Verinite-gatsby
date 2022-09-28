@@ -1,0 +1,13 @@
+.slick-slide {
+  padding: 0 20px;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 8px;
+  margin: 0 100px;
+  padding: 0;
+  cursor: pointer;
+  transition: width 0.3s ease-in-out;
+}

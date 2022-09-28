@@ -1,0 +1,52 @@
+.play-audio{
+    height: 60px;
+    width: 60px;
+    background-color: #40B5F0;
+    border-radius: 50%;
+    display: inline-flex;
+    // mix-blend-mode: screen;
+    // margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+}
+.play-audio i{
+color: white;
+font-size: 25px;
+}
+.play-audio img{
+    width: 20px;
+    fill: #ffffff;
+    filter: invert(99%) sepia(16%) saturate(350%) hue-rotate(
+23deg
+) brightness(113%) contrast(100%);
+    display: block;
+    text-align: center;
+}
+.wave-icon{
+    width: 100%;
+    height: 47px;
+    filter: invert(58%) sepia(77%) saturate(673%) hue-rotate(
+    170deg
+    ) brightness(99%) contrast(89%);
+    margin-left: 15px;
+}
+.images-audio{
+    background-image: url("../../assets/img/wave.png");
+}
+.wave-icon1{
+    position: absolute;
+    z-index: 1;
+    // width: 144px;
+    height: 47px;
+    filter:  brightness(0%) contrast(89%);
+    margin-left: 15px;
+}
+.audio-box{
+    position: relative;
+    margin-left: 15px;
+    width: 129px;
+    height: 47px;
+
+}
